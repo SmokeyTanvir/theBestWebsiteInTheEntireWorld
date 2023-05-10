@@ -5,48 +5,51 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>The Best Website</title>
 	<style>
-
-		@keyframes changeYoColor{
-			0%{
+		@keyframes changeYoColor {
+			0% {
 				background-color: green;
 				color: red;
 			}
-			25%{
+			25% {
 				background-color: red;
 				color: green;
 			}
-			50%{
+			50% {
 				background-color: yellow;
 				color: red;
 			}
-			75%{
+			75% {
 				background-color: red;
 				color: green;
 			}
-			100%{
+			100% {
 				background-color: green;
 				color: red;
 			}
 		}
-		body{
+		body {
 			position: relative;
 			animation-name: changeYoColor;
 			animation-duration: 1s;
 			animation-fill-mode: forwards;
 			animation-iteration-count: infinite;
-
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin: 0;
 		}
-		h1{
+		h1 {
 			font-family: consolas;
 		}
-		img{
-			position: relative;
-			width: 640px;
+		img {
+			max-width: 100%;
+			height: auto;
 		}
 	</style>
 </head>
 <body>
 	<h1 align="center">Ain't No Way, I learned CSS</h1>
-	<img src="https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fphotos%2Fimages%2Fnewsfeed%2F002%2F511%2F145%2F4ea.jpg" align="center">
+	<img src="https://wompampsupport.azureedge.net/fetchimage?siteId=7575&v=2&jpgQuality=100&width=700&url=https%3A%2F%2Fi.kym-cdn.com%2Fphotos%2Fimages%2Fnewsfeed%2F002%2F511%2F145%2F4ea.jpg">
 </body>
 </html>
